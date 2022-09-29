@@ -15,8 +15,8 @@ class Player
 		static bool haveKey;
 		static bool haveDoll;
 		static bool havePhoto;
-    static bool doorA6;
-    static bool book;
+    		static bool doorA6;
+    		static bool book;
 		static bool leverA5;
 		static bool leverE4;
 		static bool atPeaceC4;
@@ -1172,11 +1172,10 @@ void blockA6()
       cout << endl << "The door is beautifully decorated in gold and silver with a keyhole on the right side. There is a strange message engraved at the top of the door." << endl;
 
     else if ((string(Player::command) == "go west") && (Player::haveKey == 1))
-      cout << endl << "You decide it's finally time to leave this place. As you insert the key the message engraved at the top of the door starts glowing 
-					   Almost instinctively, you recite the strange words on the top of the door, completing the incantation.
-					   The door glows a brilliant white as it opens. As you step into the light your surroundings begin to fade away.
-					   You find yourself in your bed with the clock reading 6:32 AM. 
-					   You're covered in sweat. You should probably start getting ready for class." << endl;
+      cout << endl << "You decide it's finally time to leave this place. As you insert the key the message engraved at the top of the door starts glowing. 
+	    	       "Almost instinctively, you recite the strange words on the top of the door, completing the incantation.The door glows a brilliant white as it opens.
+	               "As you step into the light your surroundings begin to fade away.
+	     	       "You find yourself in your bed with the clock reading 6:32 AM.  You're covered in sweat. You should probably start getting ready for class." << endl;
 
 			//GO TO GAME WIN FUNCTION
 
